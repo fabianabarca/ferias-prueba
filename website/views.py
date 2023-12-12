@@ -155,3 +155,7 @@ def editar(request, slug):
             "marketplaces": marketplaces,
         }
         return render(request, "editar.html", context)
+
+
+def presentacion(request):
+    return render(request, "presentacion.html")

@@ -1,0 +1,393 @@
+{% load static %}
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>¡Vamos de feria! Un proyecto de TCU</title>
+		<meta name="description" content="Motivación del sistema de información de transporte público en el contexto de trabajo comunal universitario." />
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="{% static 'svg/logos/TCU-favicon.png' %}">
+
+		<!-- Estilos de Reveal.js -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/theme/night.min.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/plugin/highlight/monokai.min.css" id="highlight-theme">
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="{% static 'vendor/fontawesome/css/all.min.css' %}">
+
+		<!-- Colores de rutas -->
+		<link rel="stylesheet" href="{% static 'css/colores_rutas.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bubbles.css' %}">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+<!-- Contenido de la presentación -->
+
+<!-- 1. Portada -->
+
+<section data-background-color="#E64128">
+	<div class="x2">
+        <img src="{% static '/images/logos/logo_amarillo.png' %}" width="300px" alt="de feria">
+    </div>
+    
+	<h4>Base de datos, sitio web y campaña de promoción de las ferias del agricultor</h4>
+	<hr>
+	<p>Un proyecto del trabajo comunal universitario</p>
+	<h4>TC-691 "Tropicalización de la Tecnología"</h4>
+	<small>Proyecto coordinado por el profesor Fabián Abarca Calderón</small>
+    <!--<small>
+        <img src="{% static '/images/logos/ucr_texto_blanco.svg' %}" width="350px" alt="de feria">
+    </small>-->
+</section>
+
+<!-- 2. Presentación del TCU -->
+
+<section>
+
+	<section>
+		<p>TC-691</p>
+		<h2>Tropicalización de la Tecnología</h2>
+		<p>
+			"Tropicalizar" la tecnología consiste en promover su integración a las necesidades locales, facilitando el intercambio de conocimiento y la formación de capacidades alrededor de la tecnología.
+		</p>
+	</section>
+
+	<section>
+		<small>
+			<blockquote style="text-align: left;">El TCU es una actividad de acción social que vincula a grupos y comunidades vulnerables con la población estudiantil (...), cuyo propósito es contribuir con las transformaciones que la sociedad necesita.</blockquote>
+		</small>
+		<p>TC-691 es coordinado desde la <a href="https://eie.ucr.ac.cr/" target="_blank">Escuela de Ingeniería Eléctrica</a> de la <a href="https://www.ucr.ac.cr/" target="_blank">Universidad de Costa Rica</a>.</p>
+		<small>Profesores: Fabián Abarca, Teodoro Willink, <br> Helber Meneses, David Murillo, Andrés González</small>
+		<div style="width: 100%;">
+			<div style="display: table-row">
+				<div style="width: 50%; float: left;">
+					<img src="{% static '/images/logos/ucr_logo.png' %}" width="50%">
+				</div>
+				<div style="margin-left: 50%;">
+					<img src="{% static '/images/logos/eie_logo.png' %}" width="50%">
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+</section>
+
+<!-- 3. Motivación del proyecto -->
+
+<section>
+
+	<section>
+		<h3><i class="fas fa-check-square"></i></h3>
+		<h2>Motivación del proyecto</h2>
+	</section>
+	
+	<section>
+		<h3>¿Para quiénes?</h3>
+		<p>Habitantes de zonas rurales que buscan mejores oportunidades laborales y educativas fuera de sus comunidades y por ello deben trasladarse grandes distancias diariamente a zonas urbanas. En la región Caraigres muchas de estas personas dependen del transporte público.</p>
+	</section>
+
+	<section>
+		<h3>¿Por qué?</h3>
+		<p>La modernización del transporte público es un esfuerzo que requiere coordinación centralizada, sin embargo, este TCU fue concebido para trabajar en abordajes <i>bottom-up</i> ("de abajo hacia arriba") en el que las personas usuarias y las comunidades aportan soluciones desde su perspectiva y con las herramientas tecnológicas disponibles.</p>
+	</section>
+
+	<section>
+		<h3>¿Para qué?</h3>
+		<p>El transporte público tiene un importante peso socioeconómico en poblaciones vulnerables y en la situación del país. Acercarnos a las y los usuarios de zonas rurales nos permite entender el vínculo que existe entre una comunidad y su servicio de autobuses y reconocer las vulnerabilidades debidas a la lejanía, la falta de información, la infraestructura deficiente y otros factores.</p>
+	</section>
+
+	<section>
+		<h3>¿Qué?</h3>
+		<p>El trabajo realizado pone a disposición de la comunidad una herramienta web moderna con información estandarizada para consultas sobre el transporte público de su comunidad. El suministro de información creado permite utilizar también Google Maps (y otros servicios compatibles), siendo así, a nuestro entender, el primer servicio de autobuses en el país que lo tiene.</p>
+	</section>
+
+	<section>
+		<h3>¿Cómo integramos saberes?</h3>
+		<p>El desarrollo de un sitio web no es solamente una labor técnica ligada a la programación, sino que requiere de una multitud de abordajes para la identificación de necesidades y la creación de nuevos contenidos. Ejemplos de disciplinas cuyos estudiantes han contribuido para el desarrollo de este proyecto incluyen: ingeniería, estadística, administración, computación, arquitectura, inglés, comunicación colectiva y diseño gráfico.</p>
+	</section>
+
+	<section>
+		<h3>¿Qué capacidades desarrollamos?</h3>
+		<p>El desarrollo web es un aprendizaje que inició para este TCU en el 2020. Hemos compartido este conocimiento en talleres abiertos a la comunidad, con el objetivo de transferir habilidades técnicas y para sensibilizar a las personas sobre su importancia para la comunicación. Más allá de este proyecto de autobuses, el desarrollo web es ahora una herramienta disponible para co-crear soluciones a otros problemas comunitarios.</p>
+	</section>
+
+</section>
+
+<!-- 4. Demostración del proyecto -->
+
+<section>
+
+	<section>
+		<h3><i class="fas fa-play"></i></h3>
+		<h2>Demostración del proyecto</h2>
+	</section>
+
+	<section>
+		<h3>Observaciones previas</h3>
+		<dl>
+			<dt>Colores de rutas</dt>
+			<dd>Requisito de GTFS: </dd>
+			<div style="text-align: center;">
+				<strong class="color-sanluis">San Luis</strong> - <strong class="color-turrujal">Turrujal</strong> - <strong class="color-sangabriel">San Gabriel</strong>
+			</div>
+			<dt>Logotipo de empresa</dt>
+			<dd>Provisional:</dd>
+			<div style="text-align: center;">
+				<img src="{% static 'svg/logos/TSG-blanco.png' %}" width="50%" alt="Logo">
+			</div>
+			<dt>Dirección URL</dt> 
+			<dd>Disponible en:</dd>
+			<p style="text-align: center;"><a href="https://transportessangabriel.com/" target="_blank">transportessangabriel.com</a></p>
+
+		</dl>
+	</section>
+
+	<section>
+		<h3>Página de información de ruta</h3>
+		<ul>
+			<li>Descripción</li>
+			<li><strong>Próximos buses</strong></li>
+			<li>Horario completo</li>
+			<li>Tarifas</li>
+			<li><strong>Mapa de la ruta</strong></li>
+			<li><strong>Lista de paradas autorizadas</strong></li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Página de contacto</h3>
+		<ul>
+			<li>Información de contacto</li>
+			<li>Formulario de contacto</li>
+			<li>Preguntas frecuentes</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Página de la empresa</h3>
+		<ul>
+			<li>Reseña y transparencia</li>
+			<li>La empresa en números</li>
+			<li>Lista de personal</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Página de inicio</h3>
+		<ul>
+			<li>Interfaz sencilla para ir a las rutas</li>
+			<li>Otras páginas:</li>
+			<ul>
+				<li>COVID-19</li>
+				<li>GTFS</li>
+				<li>Acerca del sitio web</li>
+			</ul>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Características</h3>
+		<dl>
+			<dt><i class="fas fa-mobile-alt"></i> Apto para teléfonos móviles</dt>
+			<dd>Posiblemente en donde se utilizará más.</dd>
+
+			<dt><i class="fab fa-google"></i> Basado en GTFS</dt>
+			<dd>Único en el país conectado con Google Maps.</dd>
+
+			<dt><i class="fas fa-map-marked-alt"></i> Visualización de mapas</dt>
+			<dd>Disponible en pocas otras páginas de buses.</dd>
+		</dl>
+	</section>
+</section>
+
+<!-- 5. Tecnologías y estándares -->
+
+<section>
+
+	<section>
+		<h3><i class="fas fa-code"></i></h3>
+		<h2>Tecnologías y estándares</h2>
+	</section>
+	
+	<section>
+		<h3>Tecnologías de desarrollo web</h3>
+		<p>Plataformas modernas, seguras y de software libre.</p>
+		<dl>
+			<dt><i class="fab fa-python"></i> Django</dt>
+			<dd><i><a href="https://www.djangoproject.com/" target="_blank">Plataforma</a></i> en Python para el <i>back-end</i>.</dd>
+			<dt><i class="fab fa-bootstrap"></i> Bootstrap</dt>
+			<dd><i><a href="https://getbootstrap.com/" target="_blank">Plataforma</a></i> de HTML, CSS y JavaScript para el <i>front-end</i>.</dd>
+			<dt><i class="fab fa-vuejs"></i> Vue.js</dt>
+			<dd><i><a href="https://vuejs.org/" target="_blank">Plataforma</a></i> en JavaScript para aplicaciones (<i>widgets</i>) en el <i>front-end</i>.</dd>
+		</dl>
+		<p style="text-align: center;">
+			<small>(<a href="https://revealjs.com/">Reveal.js</a> para esta presentación)</small>
+		</p>
+	</section>
+
+	<section>
+		<h3>GTFS Static</h3>
+		<h4>Especificación de suministro de datos de transporte público</h4>
+		<p><i class="fas fa-table"></i></p>
+		<p>Es un <a href="https://developers.google.com/transit/gtfs/examples/overview" target="_blank">estándar</a> de datos abiertos que permite a otras aplicaciones mostrar la información de las rutas. Es utilizado en cientos de ciudades alrededor del mundo y es pionero en Costa Rica.</p>
+		<p style="text-align: center;">
+			<small><a href="/gtfs" target="_blank">Conocer más</a></small>
+		</p>
+	</section>
+</section>
+
+<!-- 6. Lanzamiento -->
+
+<section>
+	<section>
+		<h3><i class="fas fa-tasks"></i></h3>
+		<h2>Lanzamiento</h2>
+	</section>
+	
+	<section>
+		<h3>Necesidades de implementación</h3>
+		<table>
+			<thead>
+			  <tr>
+				<th>Requisito</th>
+				<th>Costo anual</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Nombre de dominio</td>
+				<td>$15</td>
+			  </tr>
+			  <tr>
+				<td>Hospedaje en la nube</td>
+				<td>$5 &times; 12 meses</td>
+			  </tr>
+			  <tr>
+				<td>Certificado de seguridad</td>
+				<td>$15</td>
+			  </tr>
+			  <tr>
+				<td style="text-align: right;"><strong>Total</strong></td>
+				<td><strong>$90 = ¢55.800</strong></td>
+			  </tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h3>Campaña de lanzamiento</h3>
+		<dl>
+			<dt>Señalización de buses</dt>
+			<dd>Para hacer los colores identificables con los usuarios en buses y paradas.</dd>
+
+			<dt>Anuncios en paradas y otros lugares</dt>
+			<dd>Para que las personas conozcan el sitio y empiecen a usarlo.</dd>
+
+			<dt>Redes sociales</dt>
+			<dd>Material gráfico para distribución.</dd>
+		</dl>
+	</section>
+
+	<section>
+		<h3>Condiciones de operación</h3>
+		<ul>
+			<li>El TCU mantiene el sitio por al menos un año.</li>
+			<li>Las actualizaciones se hacen vía TCU.</li>
+			<li>Los contenidos son acordados entre TSG y TCU.</li>
+			<li>Mantiene licencia de software libre.</li>
+		</ul>
+	</section>
+</section>
+
+<!-- 7. Trabajo futuro -->
+
+<section>
+	<section>
+		<h3><i class="fas fa-forward"></i></h3>
+		<h2>Trabajo futuro</h2>
+	</section>
+
+	<section>
+		<h3>Estudio de opinión</h3>
+		<p>Queremos evaluar del impacto del proyecto.</p>
+		<ul>
+			<li>Diseño de mecanismos de evaluación</li>
+			<li>Aplicación de la herramienta en línea</li>
+			<li>Análisis y divulgación de resultados</li>
+		</ul>
+	</section>
+	
+	<section>
+		<h3>GTFS <i>Realtime</i></h3>
+		<p>Fase de exploración de requisitos del estándar que permite, junto con GPS en las unidades:</p>
+		<dl>
+			<dt><i class="fas fa-exclamation-triangle"></i> Alertas</dt>
+			<dd>Alteraciones del servicio, por ejemplo: problemas técnicos, mal tiempo, bloqueos, etc.</dd>
+
+			<dt><i class="fas fa-location-arrow"></i> Ubicación de las unidades</dt>
+			<dd>Posición de los vehículos y otra información, por ejemplo: parada siguiente, congestión, etc.</dd>
+		</dl>
+	</section>
+	
+	<section>
+		<h3>Portal de las comunidades</h3>
+		<dl>
+			<dt>Reseñas de las comunidades</dt>
+			<dd>Historia y puntos turísticos de San Ignacio, Vuelta de Jorco, San Gabriel, Tarbaca.</dd>
+
+			<dt>Historias de buses</dt>
+			<dd>Vínculo de las comunidades con el servicio, incluyendo fotos viejas y actuales de buses.</dd>
+		</dl>
+	</section>
+	
+	<section>
+		<h3>Otros desarrollos</h3>
+		<dl>
+			<dt>Diseño de marca de TSG</dt>
+			<dd>Con trabajo de diseño gráfico.</dd>
+
+			<dt>Cálculo de tarifas</dt>
+			<dd>Según las paradas de origen y destino.</dd>
+
+			<dt>Más información sobre las paradas</dt>
+			<dd>Rediseño de cómo se muestran.</dd>
+
+			<dt>Más mejoras</dt>
+			<dd>A solicitud de TSG y sus usuarios.</dd>
+		</dl>
+	</section>
+</section>
+
+<!-- Fin de contenido de la presentación -->
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/reveal.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/plugin/notes/notes.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/plugin/highlight/highlight.min.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
