@@ -1,0 +1,62 @@
+[
+    {
+        "model": "products.price",
+        "pk": 1,
+        "fields": {
+            "variety": 4,
+            "unit": "kg",
+            "price": 2300,
+            "publication_date": "2024-07-17",
+            "year": 2024,
+            "week": 29
+        }
+    },
+    {
+        "model": "products.price",
+        "pk": 2,
+        "fields": {
+            "variety": 4,
+            "unit": "kg",
+            "price": 2200,
+            "publication_date": "2024-07-10",
+            "year": 2024,
+            "week": 28
+        }
+    },
+    {
+        "model": "products.price",
+        "pk": 3,
+        "fields": {
+            "variety": 4,
+            "unit": "kg",
+            "price": 2100,
+            "publication_date": "2024-07-03",
+            "year": 2024,
+            "week": 27
+        }
+    },
+    {
+        "model": "products.price",
+        "pk": 4,
+        "fields": {
+            "variety": 4,
+            "unit": "kg",
+            "price": 2150,
+            "publication_date": "2024-06-26",
+            "year": 2024,
+            "week": 26
+        }
+    },
+    {
+        "model": "products.price",
+        "pk": 5,
+        "fields": {
+            "variety": 4,
+            "unit": "kg",
+            "price": 1990,
+            "publication_date": "2024-06-19",
+            "year": 2024,
+            "week": 25
+        }
+    }
+]

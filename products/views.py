@@ -61,3 +61,16 @@ def prices(request):
         "this_week_prices": this_week_prices,
     }
     return render(request, "prices.html", context)
+
+[
+    {
+        "variety": "aguacate_criollo",
+        "x": [1, 2, 3, 4],
+        "y": [2100, 2200, 1900, 2300],
+    },
+    {
+        "variety": "tomate",
+        "x": [1, 2, 3, 4],
+        "y": [1200, 1300, 1400, 1100],
+    }
+]
